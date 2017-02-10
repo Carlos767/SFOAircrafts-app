@@ -1,0 +1,7 @@
+<H1>Aircrafts at SFO:</h1>
+  <% @aircrafts.each do |aircraft| %>
+  <div>
+    Type: <%= aircraft["aircraft_model"] %> <br>
+    Airline: <%= aircraft["airline"] %> <br>
+  </div><br>
+  <% end %>
